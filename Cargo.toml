@@ -1,0 +1,12 @@
+[package]
+name = "azure-speech-sdk-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cxx = { version = "1.0", features = ["c++20"] }
+
+[build-dependencies]
+cxx-build = "1.0"
+
+[dev-dependencies]
